@@ -96,8 +96,8 @@ nav ul li a {
 
 #banner {
     width: 100%;
-    height: 90vh;
-    background: url('./assets/hero-bg.png');
+    padding: 70px 120px 134px 120px;
+    background: url('./assets/hero-bg.webp');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,6 +110,8 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 #banner .banner-content .early-access {
@@ -168,7 +170,6 @@ nav ul li a {
     padding: 8vh 0px 0vh 0px;
     text-align: center;
     background-color: rgba(231, 231, 231, 0.305);
-    z-index: -5;
 }
 #notes .text-content h1{
     font-size: 48px;
@@ -198,12 +199,15 @@ nav ul li a {
     width: 322px;
     height: 300px;
     padding: 55px 24px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 8px 0px rgba(28, 28, 28, 0.055);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 16px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
 }
 #notes .card-box .card .red-circle {
     width: 60px;
@@ -232,7 +236,9 @@ nav ul li a {
     display: flex;
     align-items: center;
     gap: 60px;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
+    background: #FFFFFF;
 }
 #solution .solution-container{
     display: flex;
