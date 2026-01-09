@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 0.7vw;
     transition: all 0.1s ease;
 }
-.btn:hover {
+.btn:hover, .btn-end:hover {
     background-color: #367a4f;
     cursor: pointer;
 }
@@ -50,6 +50,21 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
+.btn-end{
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 16.5px 16px;
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+    transition: all 0.1s ease;
+}
 /* main style  */
 nav {
     background-color: white;
@@ -253,4 +268,34 @@ nav ul li a {
     font-size: 16px;
     color: #001931;
     gap: 6px;
+}
+
+#think-more{
+    padding: 0px 120px 120px 120px;
+}
+#think-more .think-container{
+    padding: 80px 40px;
+    background-color: #f7f6f2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#think-more .think-container h1{
+    font-size: 42px;
+    font-weight: 700;
+    font-style: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#think-more .think-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+#think-more .think-container p:first-of-type{
+    margin-bottom: 24px;
 }
