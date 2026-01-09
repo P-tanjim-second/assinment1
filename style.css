@@ -11,6 +11,10 @@
     font-optical-sizing: auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
 .btn {
     background-color: #469165;
     color: white;
@@ -143,4 +147,64 @@ nav ul li a {
 .banner-button{
     display: flex;
     gap: 1.5vw;
+}
+
+#notes{
+    padding: 8vh 0px 8vh 0px;
+    text-align: center;
+}
+#notes .text-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#notes .text-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin: 0px auto;
+    line-height: 20px;
+}
+#notes .card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 44px;
+}
+#notes .card-box .card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.041);
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    padding: 55px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+#notes .card-box .card .red-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#notes .card-box .card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    line-height: auto;
+}
+#notes .card-box .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
 }
